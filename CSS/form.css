@@ -160,3 +160,10 @@ select {
     opacity: 1;
     width: 90%;
 }
+
+error-output {
+    margin-left: px;
+    font-size: 16px;
+    font-style: italic;
+    color: red;
+}

@@ -35,16 +35,19 @@
                 <div class="row-content">
                     <label for="name" class="label text">Full Name</label><br>
                     <input type="text" class="input" id="name" name="name" placeholder="Full Name" required>
+                    <error-output class="name-error"></error-output>
                 </div>
                 <div class="row-content">
                     <label for="phoneNumber" class="label text">Phone Number</label>
                     <br>
                     <input type="tel" class="input" id="phoneNumber" name="phoneNumber"
                         placeholder="Phone Number" required>
+                    <error-output class="tel-error"></error-output>
                 </div>
                 <div class="row-content">
                     <label for="address" class="label text">Address</label><br>
                     <textarea name="address" id="address" placeholder="Address" required></textarea>
+                    <error-output class="address-error"></error-output>
                 </div>
                 <div class="row-content">
                     <div class="column-data">
@@ -122,10 +125,13 @@
                             <label for="zip" class="label text">Zip Code</label><br>
                             <input type="text" class="input zipcode" id="zip" name="zip" placeholder="Zip Code"
                                 required>
+                            <error-output class="zip-error"></error-output>
                         </div>
                     </div>
                 </div>
         </form>
     </div>
 </body>
+<script src="../JavaScript/address_book_data.js"></script>
+<script src="../JavaScript/address_book_form.js"></script>
 </html>
