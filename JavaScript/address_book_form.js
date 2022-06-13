@@ -70,9 +70,19 @@ const ValidatePhoneNumber = () => {     // Added UC-7
     });
 };
 
-// <!-- UC-6 -->
+// UC-6
 
-function save() {
+function save() {     //Added UC-8
+    try {
+        let contact = createContact();
+        console.log(contact);
+        createAndUpdateStorage(contact);
+    } catch (error) {
+        alert(error);
+    }
+};
+
+const createContact = () => {
     let contact = new Contact();
     contact.id = Math.random();
 
@@ -119,6 +129,7 @@ function save() {
     }
 
     alert(contact.toString());     // Added UC-7
+    return contact;     //Added UC-8
 };
 
 const setTextValue = (id, value) => {
