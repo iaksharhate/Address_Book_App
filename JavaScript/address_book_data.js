@@ -77,7 +77,6 @@ class Contact {
     }
 
     toString() {
-        return "Id = " + this.id + ", Name = " + this.name + ", Address = " + this.address + ", City = " + this.city +
-                ", state = " + this.state + ", zip = " + this.zip + ", phone Number = " + this.phoneNumber
-    };
+        return "Id = " + this.id +" \n"+ "Name = " + this.name +"\n"+ "Address = " + this.address+"\n" + "City = " + this.city
+                +"\n"+ "state = " + this.state+"\n" + "zip = " + this.zip+"\n" + "phone Number = " + this.phoneNumber};
 }
