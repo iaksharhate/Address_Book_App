@@ -60,5 +60,4 @@ window.addEventListener("DOMContentLoaded", (event) => {
         setTextValue(".tel-error", error);
     }
     });
-
 });

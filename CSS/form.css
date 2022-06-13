@@ -167,3 +167,34 @@ error-output {
     font-style: italic;
     color: red;
 }
+
+/* UC 5 */
+
+.buttons-contact {
+    margin-top: 30px;
+    display: flex;
+    justify-content: right;    
+}
+
+.button {
+    background: #dfd6d6 0% 0% no-repeat padding-box;
+    border: 1px solid rgb(109, 102, 102);
+    border-radius: 6px;
+    opacity: 1;
+    font: normal normal normal 20px/26px Montserrat;
+    letter-spacing: 0px;
+    color: #42515f;
+    opacity: 1;
+    padding: 10px 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.button-submit{
+    margin-right: 50px;
+}
+
+.button-reset{
+    margin-right: 70px;
+}
